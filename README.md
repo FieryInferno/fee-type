@@ -16,56 +16,56 @@ This specification is used when an agent user manages fee type .
 ## UI
 ### Index
 - Prerequisite
-	- [x] This page is accessible: conditional, based on permissions that are granted to the User which are inherited from the User's User Type and then overridden by permissions directly assigned to the User to View Master Fee Type.
+	- [ ] This page is accessible: conditional, based on permissions that are granted to the User which are inherited from the User's User Type and then overridden by permissions directly assigned to the User to View Master Fee Type.
 	- [ ] If not accessible: redirect to dashboard
 - Heading
-	- [ ] Text: "Master Fee Type"
+	- [x] Text: "Master Fee Type"
 - Breadcrumb
-	- [ ] Element: Text
+	- [x] Element: Text
 		- Appearance
-			- [ ] Text: "Master Data Management > Fee Type"
-			- [ ] This element is visible on page load: yes
+			- [x] Text: "Master Data Management > Fee Type"
+			- [x] This element is visible on page load: yes
 		- Conditional
-			- [ ] When User click "Master Data Management": Nothing happened (text only)
-			- [ ] When User click "Fee Type": Nothing happened (text only)
+			- [x] When User click "Master Data Management": Nothing happened (text only)
+			- [x] When User click "Fee Type": Nothing happened (text only)
 - Search By Text
-	- [ ] Element: Input
+	- [x] Element: Input
 		- Appearance
-			- [ ] Placeholder: "Search..."
-			- [ ] Icon: Search
-			- [ ] This element is disabled: no
-			- [ ] Initial content: empty
-			- [ ] Content format: Text
-				- [ ] Text
-					- [ ] Limit the number of characters: yes
-						- [ ] Minimum value: 0
-						- [ ] Maximum number: 256
-			- [ ] This element is visible on page load: yes
+			- [x] Placeholder: "Search..."
+			- [x] Icon: Search
+			- [x] This element is disabled: no
+			- [x] Initial content: empty
+			- [x] Content format: Text
+				- [x] Text
+					- [x] Limit the number of characters: yes
+						- [x] Minimum value: 0
+						- [x] Maximum number: 256
+			- [x] This element is visible on page load: yes
 - Advanced options
-	- [ ] Element: Link
+	- [x] Element: Link
 		- Appearance
-			- [ ] Text: "Advanced options"
-			- [ ] This element is disabled: no
-			- [ ] This element is visible on page load: yes
+			- [x] Text: "Advanced options"
+			- [x] This element is disabled: no
+			- [x] This element is visible on page load: yes
 		- Conditional
-			- [ ] When this Link is clicked: Expand/Collapse the Advanced options section
+			- [x] When this Link is clicked: Expand/Collapse the Advanced options section
 - Update Status (Advanced options)
-	- [ ] Element: Select
+	- [x] Element: Select
 		- Appearance
-			- [ ] Text: "Update Status"
-			- [ ] Selections: {Active (1: active), Inactive (3: blocked/ temporarily deactivated)}
-			- [ ] This element is visible on page load: conditional, based on User or User Type Capability to Activate/ Deactivate Fee Type
+			- [x] Text: "Update Status"
+			- [x] Selections: {Active (1: active), Inactive (3: blocked/ temporarily deactivated)}
+			- [x] This element is visible on page load: conditional, based on User or User Type Capability to Activate/ Deactivate Fee Type
 		- Conditional
-			- [ ] When this Button is clicked: 
-				- [ ] Update Status Fee Type
+			- [x] When this Button is clicked: 
+				- [x] Update Status Fee Type
 - Remove Fee Type (Advanced options)
-	- [ ] Element: Link
+	- [x] Element: Link
 		- Appearance
-			- [ ] Text: "Remove Fee Type"
-			- [ ] This element is disabled: no
-			- [ ] This element is visible on page load: conditional, based on User or User Type Capability to Delete Fee Type
+			- [x] Text: "Remove Fee Type"
+			- [x] This element is disabled: no
+			- [x] This element is visible on page load: conditional, based on User or User Type Capability to Delete Fee Type
 		- Conditional
-			- [ ] When this Link is clicked: Update selected fee types with Status = 0 (deleted).
+			- [x] When this Link is clicked: Update selected fee types with Status = 0 (deleted).
 - Print
 	- [ ] Element: Link
 		- Appearance
