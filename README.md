@@ -338,80 +338,80 @@ This specification is used when an agent user manages fee type .
 	- [ ] This page is accessible: conditional, based on permissions that are granted to the User which are inherited from the User's User Type and then overridden by permissions directly assigned to the User.
 	- [ ] If not accessible: redirect to dashboard
 - Heading
-	- [ ] Text: "Edit Fee Type"
+	- [x] Text: "Edit Fee Type"
 - Breadcrumb
 	- Appearance
-		- [ ] Text: "Master Data Management > Fee Type > Edit Fee Type"
-		- [ ] This element is visible on page load: yes
+		- [x] Text: "Master Data Management > Fee Type > Edit Fee Type"
+		- [x] This element is visible on page load: yes
 	- Conditional
-		- [ ] When User click "Master Data Management": Nothing happened (text only)
-		- [ ] When User click "Fee Type": Go to Index
-		- [ ] When User click "Edit Fee Type": Nothing happened (text only)
+		- [x] When User click "Master Data Management": Nothing happened (text only)
+		- [x] When User click "Fee Type": Go to Index
+		- [x] When User click "Edit Fee Type": Nothing happened (text only)
 - Data Source:
 	- Select from table Fee Tax Type
 	- Where Fee Tax Type.Status is not 0 (deleted)
 		and Fee Tax Type.Id = the corresponding Fee Tax Type Id selected
 - Sub Heading
-	- [ ] Text: "For Interface Purpose"
+	- [x] Text: "For Interface Purpose"
 - Fee Type Code
-	- [ ] Element: Input
+	- [x] Element: Input
 		- Appearance
-			- [ ] Label: "Fee Type Code"
+			- [x] Label: "Fee Type Code"
 				- [ ] Help info
-			- [ ] Initial content: the Fee Tax Type.Fee Tax Type Code from selected record
-			- [ ] Content format: Text
-				- [ ] Text:
-					- [ ] Limit the number of characters: yes
-						- [ ] Minimum number: 1
-						- [ ] Maximum number: 36
-			- [ ] This input is mandatory: yes
-				- [ ] When this input's value is NULL, show message "Fee Type Code is required." 
-			- [ ] This element is visible on page load: yes
+			- [x] Initial content: the Fee Tax Type.Fee Tax Type Code from selected record
+			- [x] Content format: Text
+				- [x] Text:
+					- [x] Limit the number of characters: yes
+						- [x] Minimum number: 1
+						- [x] Maximum number: 36
+			- [x] This input is mandatory: yes
+				- [x] When this input's value is NULL, show message "Fee Type Code is required." 
+			- [x] This element is visible on page load: yes
 		- Conditional
-			- [ ] When code already exists, show message "Fee Type Code already exists"
-				- [ ] Exclude checking on deleted records
-				- [ ] Exclude its own code
+			- [x] When code already exists, show message "Fee Type Code already exists"
+				- [x] Exclude checking on deleted records
+				- [x] Exclude its own code
 - Fee Type Name
-	- [ ] Element: Input
+	- [x] Element: Input
 		- Appearance
-			- [ ] Label: "Fee Type Name"
-			- [ ] Initial content: the Fee Tax Type.Fee Tax Type Name from selected record
-			- [ ] Content format: Text
-				- [ ] Text:
-					- [ ] Limit the number of characters: yes
-						- [ ] Minimum number: 1
-						- [ ] Maximum number: 256
-			- [ ] This input is mandatory: yes
-				- [ ] When this input's value is NULL, show message "Fee Type Name is required." 
-			- [ ] This element is visible on page load: yes
+			- [x] Label: "Fee Type Name"
+			- [x] Initial content: the Fee Tax Type.Fee Tax Type Name from selected record
+			- [x] Content format: Text
+				- [x] Text:
+					- [x] Limit the number of characters: yes
+						- [x] Minimum number: 1
+						- [x] Maximum number: 256
+			- [x] This input is mandatory: yes
+				- [x] When this input's value is NULL, show message "Fee Type Name is required." 
+			- [x] This element is visible on page load: yes
 		- Conditional
-			- [ ] When name already exists, show message "Fee Type Name already exists"
-				- [ ] Exclude checking on deleted records
-				- [ ] Exclude its own name
+			- [x] When name already exists, show message "Fee Type Name already exists"
+				- [x] Exclude checking on deleted records
+				- [x] Exclude its own name
 - Description
-	- [ ] Element: Input
+	- [x] Element: Input
 		- Appearance
-			- [ ] Label: "Description"
-			- [ ] Initial content: the Fee Tax Type.Description from selected record
-			- [ ] Content format: Textarea
-				- [ ] Textarea:
-					- [ ] Limit the number of characters: yes
-						- [ ] Minimum number: 1
-						- [ ] Maximum number: 4000
-			- [ ] This input is mandatory: no
-			- [ ] This element is visible on page load: yes
+			- [x] Label: "Description"
+			- [x] Initial content: the Fee Tax Type.Description from selected record
+			- [x] Content format: Textarea
+				- [x] Textarea:
+					- [x] Limit the number of characters: yes
+						- [x] Minimum number: 1
+						- [x] Maximum number: 4000
+			- [x] This input is mandatory: no
+			- [x] This element is visible on page load: yes
 - Multi Lingual Caption
-	- [ ] Element: Tab
+	- [x] Element: Tab
 		- Appearance
-			- [ ] Tabs: "{Language Name} list available from Agent Language table join Language table"
-			- [ ] Content: Multi Lingual Caption Content
-			- [ ] This element is visible on page load: yes
+			- [x] Tabs: "{Language Name} list available from Agent Language table join Language table"
+			- [x] Content: Multi Lingual Caption Content
+			- [x] This element is visible on page load: yes
 		- Conditional
 			- [ ] When any fields in a tab is empty, show warning icon beside the related Language Name at the tab header
 - Update
-	- [ ] Element: Button
+	- [x] Element: Button
 		- Appearance
-			- [ ] Text: "Save"
+			- [x] Text: "Save"
 			- [ ] This element is disabled: yes, if data invalid
 			- [ ] This element is visible on page load: conditional, based on User or User Type Capability to Modify Fee Type
 		- Update
