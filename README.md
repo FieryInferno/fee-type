@@ -81,7 +81,7 @@ This specification is used when an agent user manages fee type .
 				- [x] Tooltip text (on hover): "Click to download"
 			- [x] This element is visible on page load: yes
 		- Conditional
-			- [ ] When this Link is clicked: Download this table header and data as csv file.
+			- [x] When this Link is clicked: Download this table header and data as csv file.
 - Fee Type Table
 	- [x] Element: Table
 		- Appearance
