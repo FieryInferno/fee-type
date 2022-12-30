@@ -73,7 +73,7 @@ This specification is used when an agent user manages fee type .
 				- [x] Tooltip text (on hover): "Click to print"
 			- [x] This element is visible on page load: yes 
 		- Conditional
-			- [ ] When this Link is clicked: Print this table in print format.                       
+			- [x] When this Link is clicked: Print this table in print format.                       
 - Download
 	- [x] Element: Link
 		- Appearance
