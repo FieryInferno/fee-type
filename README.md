@@ -67,11 +67,11 @@ This specification is used when an agent user manages fee type .
 		- Conditional
 			- [x] When this Link is clicked: Update selected fee types with Status = 0 (deleted).
 - Print
-	- [ ] Element: Link
+	- [x] Element: Link
 		- Appearance
-			- [ ] Open in a new tab: no
-				- [ ] Tooltip text (on hover): "Click to print"
-			- [ ] This element is visible on page load: yes 
+			- [x] Open in a new tab: no
+				- [x] Tooltip text (on hover): "Click to print"
+			- [x] This element is visible on page load: yes 
 		- Conditional
 			- [ ] When this Link is clicked: Print this table in print format.                       
 - Download
