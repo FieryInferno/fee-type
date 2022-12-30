@@ -75,119 +75,119 @@ This specification is used when an agent user manages fee type .
 		- Conditional
 			- [ ] When this Link is clicked: Print this table in print format.                       
 - Download
-	- [ ] Element: Link
+	- [x] Element: Link
 		- Appearance
-			- [ ] Open in a new tab: no
-				- [ ] Tooltip text (on hover): "Click to download"
-			- [ ] This element is visible on page load: yes
+			- [x] Open in a new tab: no
+				- [x] Tooltip text (on hover): "Click to download"
+			- [x] This element is visible on page load: yes
 		- Conditional
 			- [ ] When this Link is clicked: Download this table header and data as csv file.
 - Fee Type Table
-	- [ ] Element: Table
+	- [x] Element: Table
 		- Appearance
-			- [ ] Rows: 10 (based on paging configuration)
-			- [ ] This element is visible on page load: conditional, if there are any records
-			- [ ] Content: see Fee Type Table Content
+			- [x] Rows: 10 (based on paging configuration)
+			- [x] This element is visible on page load: conditional, if there are any records
+			- [x] Content: see Fee Type Table Content
 - Paging Configuration
-	- [ ] Element: Select
+	- [x] Element: Select
 		- Appearance
-			- [ ] Values: 10, 25, 50, 100, All
-			- [ ] This element is visible on page load: conditional, if there are any records
+			- [x] Values: 10, 25, 50, 100, All
+			- [x] This element is visible on page load: conditional, if there are any records
 		- Conditional
-			- [ ] When the select value is changed, reload rows by the selected number of rows per page.
-	- [ ] Element: Text
+			- [x] When the select value is changed, reload rows by the selected number of rows per page.
+	- [x] Element: Text
 		- Appearance
-			- [ ] Text: "Showing {Start Row Number} - {End Row Number} of {Total Rows}"
-			- [ ] This element is visible on page load: conditional, if there are any records
+			- [x] Text: "Showing {Start Row Number} - {End Row Number} of {Total Rows}"
+			- [x] This element is visible on page load: conditional, if there are any records
 - Pagination
-	- [ ] Element: Link
+	- [x] Element: Link
 		- Appearance
-			- [ ] Text: "Previous icon {Previous Page} {Page Numbers} {Next Page} Next icon"
-			- [ ] This element is visible on page load: conditional, if there are any records
+			- [x] Text: "Previous icon {Previous Page} {Page Numbers} {Next Page} Next icon"
+			- [x] This element is visible on page load: conditional, if there are any records
 		- Conditional
-			- [ ] Text is loaded based on total pages available.
-			- [ ] When user click the previous link, page number link, or next link: load the related rows.
+			- [x] Text is loaded based on total pages available.
+			- [x] When user click the previous link, page number link, or next link: load the related rows.
 - No Records
-	- [ ] Element: Text
+	- [x] Element: Text
 		- Appearance
 			- [ ] Text: "No Fee Type found"
-			- [ ] This element is visible on page load: conditional, if there are no records
+			- [x] This element is visible on page load: conditional, if there are no records
 #### Fee Type Table Content
 ##### Table Header
 - Fee Type Code
-	- [ ] Element: Link
+	- [x] Element: Link
 		- Appearance
-			- [ ] Text: "Fee Type Code"
-			- [ ] This element is visible on page load: yes
+			- [x] Text: "Fee Type Code"
+			- [x] This element is visible on page load: yes
 		- Conditional
-			- [ ] When this Link is clicked: Sort by Code ASC/ DESC with icon indicator after the column's name and remove all other column's icon if exist
+			- [x] When this Link is clicked: Sort by Code ASC/ DESC with icon indicator after the column's name and remove all other column's icon if exist
 - Fee Type Name
-	- [ ] Element: Link
+	- [x] Element: Link
 		- Appearance
-			- [ ] Text: "Fee Type Name"
-			- [ ] This element is visible on page load: yes
+			- [x] Text: "Fee Type Name"
+			- [x] This element is visible on page load: yes
 		- Conditional
-			- [ ] When this Link is clicked: Sort by Fee Type Name ASC/ DESC with icon indicator after the column's name and remove all other column's icon if exist
+			- [x] When this Link is clicked: Sort by Fee Type Name ASC/ DESC with icon indicator after the column's name and remove all other column's icon if exist
 - Description
-	- [ ] Element: Link
+	- [x] Element: Link
 		- Appearance
-			- [ ] Text: "Description"
-			- [ ] This element is visible on page load: yes
+			- [x] Text: "Description"
+			- [x] This element is visible on page load: yes
 		- Conditional
-			- [ ] When this Link is clicked: Sort by Description ASC/ DESC with icon indicator after the column's name and remove all other column's icon if exist
+			- [x] When this Link is clicked: Sort by Description ASC/ DESC with icon indicator after the column's name and remove all other column's icon if exist
 - Status
-	- [ ] Element: Link
+	- [x] Element: Link
 		- Appearance
-			- [ ] Text: "Status"
-			- [ ] This element is visible on page load: yes
+			- [x] Text: "Status"
+			- [x] This element is visible on page load: yes
 		- Conditional
-			- [ ] When this Link is clicked: Sort by Status ASC/ DESC with icon indicator after the column's name and remove all other column's icon if exist
+			- [x] When this Link is clicked: Sort by Status ASC/ DESC with icon indicator after the column's name and remove all other column's icon if exist
 - Actions
-	- [ ] Element: Text
+	- [x] Element: Text
 		- Appearance
-			- [ ] Text: "Actions"
-			- [ ] This element is visible on page load: yes
+			- [x] Text: "Actions"
+			- [x] This element is visible on page load: yes
 ##### Table Body
 - Data Source:
 	- Select from table Fee Tax Type
 	- Where Fee Tax Type.Status is not 0 (deleted)
 	- Order by Fee Tax Type.Sort
 - Fee Tax Type Code
-	- [ ] Element: Text
+	- [x] Element: Text
 		- Appearance
-			- [ ] Text: "{Fee Tax Type.Fee Tax Type Code}"
-			- [ ] This element is visible on page load: yes
+			- [x] Text: "{Fee Tax Type.Fee Tax Type Code}"
+			- [x] This element is visible on page load: yes
 - Fee Tax Type Name
-	- [ ] Element: Text
+	- [x] Element: Text
 		- Appearance
-			- [ ] Text: "{Fee Tax Type.Fee Tax Type Name}"
-			- [ ] This element is visible on page load: yes
+			- [x] Text: "{Fee Tax Type.Fee Tax Type Name}"
+			- [x] This element is visible on page load: yes
 - Description
-	- [ ] Element: Text
+	- [x] Element: Text
 		- Appearance
-			- [ ] Text: "{Fee Tax Type.Description}"
-			- [ ] This element is visible on page load: yes
+			- [x] Text: "{Fee Tax Type.Description}"
+			- [x] This element is visible on page load: yes
 - Status
-	- [ ] Element: Text
+	- [x] Element: Text
 		- Appearance
-			- [ ] Text: "{Fee Tax Type.Status}" (1: Active, 3: Inactive)
-			- [ ] This element is visible on page load: yes
+			- [x] Text: "{Fee Tax Type.Status}" (1: Active, 3: Inactive)
+			- [x] This element is visible on page load: yes
 - Actions
 	- Edit
-		- [ ] Element: Link
+		- [x] Element: Link
 			- Appearance
-				- [ ] Icon Edit
+				- [x] Icon Edit
 				- [ ] Destination page: Edit
 				- [ ] Data to send: Fee Tax Type.Id
 				- [ ] Open in a new tab: no
 				- [ ] Tooltip text (on hover): "Click to edit"
-				- [ ] This element is visible on page load: conditional, based on User or User Type Capability to Modify Fee Tax Type
+				- [x] This element is visible on page load: conditional, based on User or User Type Capability to Modify Fee Tax Type
 			- Conditional
 				- [ ] When this Link is clicked: Continue to edit page
 	- Details
-		- [ ] Element: Link
+		- [x] Element: Link
 			- Appearance
-				- [ ] Icon View
+				- [x] Icon View
 				- [ ] Destination page: Details
 				- [ ] Data to send: Fee Tax Type.Id
 				- [ ] Open in a new tab: no
@@ -196,16 +196,16 @@ This specification is used when an agent user manages fee type .
 			- Conditional
 				- [ ] When this Link is clicked: Continue to details page
 	- Delete
-		- [ ] Element: Link
+		- [x] Element: Link
 			- Appearance
-				- [ ] Text: "Delete"
-				- [ ] Destination page: Delete
+				- [x] Text: "Delete"
+				- [x] Destination page: Delete
 				- [ ] Data to send: Fee Tax Type.Id
 				- [ ] Open in a new tab: no
 				- [ ] Tooltip text (on hover): "Click to delete"
-				- [ ] This element is visible on page load: conditional, based on User or User Type Capability to Delete Fee Tax Type 
+				- [x] This element is visible on page load: conditional, based on User or User Type Capability to Delete Fee Tax Type 
 			- Conditional
-				- [ ] When this Link is clicked: Continue to delete
+				- [x] When this Link is clicked: Continue to delete
 ### Create Fee Type
 - Prerequisite
 	- [ ] This page is accessible: conditional, based on permissions that are granted to the User which are inherited from the User's User Type and then overridden by permissions directly assigned to the User.
