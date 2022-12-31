@@ -177,13 +177,13 @@ This specification is used when an agent user manages fee type .
 		- [x] Element: Link
 			- Appearance
 				- [x] Icon Edit
-				- [ ] Destination page: Edit
-				- [ ] Data to send: Fee Tax Type.Id
-				- [ ] Open in a new tab: no
-				- [ ] Tooltip text (on hover): "Click to edit"
+				- [x] Destination page: Edit
+				- [x] Data to send: Fee Tax Type.Id
+				- [x] Open in a new tab: no
+				- [x] Tooltip text (on hover): "Click to edit"
 				- [x] This element is visible on page load: conditional, based on User or User Type Capability to Modify Fee Tax Type
 			- Conditional
-				- [ ] When this Link is clicked: Continue to edit page
+				- [x] When this Link is clicked: Continue to edit page
 	- Details
 		- [x] Element: Link
 			- Appearance
@@ -335,8 +335,8 @@ This specification is used when an agent user manages fee type .
 			- [ ] This element is visible on page load: yes
 ### Edit Fee Type
 - Prerequisite
-	- [ ] This page is accessible: conditional, based on permissions that are granted to the User which are inherited from the User's User Type and then overridden by permissions directly assigned to the User.
-	- [ ] If not accessible: redirect to dashboard
+	- [x] This page is accessible: conditional, based on permissions that are granted to the User which are inherited from the User's User Type and then overridden by permissions directly assigned to the User.
+	- [x] If not accessible: redirect to dashboard
 - Heading
 	- [x] Text: "Edit Fee Type"
 - Breadcrumb
@@ -407,19 +407,19 @@ This specification is used when an agent user manages fee type .
 			- [x] Content: Multi Lingual Caption Content
 			- [x] This element is visible on page load: yes
 		- Conditional
-			- [ ] When any fields in a tab is empty, show warning icon beside the related Language Name at the tab header
+			- [x] When any fields in a tab is empty, show warning icon beside the related Language Name at the tab header
 - Update
 	- [x] Element: Button
 		- Appearance
 			- [x] Text: "Save"
-			- [ ] This element is disabled: yes, if data invalid
-			- [ ] This element is visible on page load: conditional, based on User or User Type Capability to Modify Fee Type
+			- [x] This element is disabled: yes, if data invalid
+			- [x] This element is visible on page load: conditional, based on User or User Type Capability to Modify Fee Type
 		- Update
-			- [ ] Note:
-				- [ ] Update based on whether record already exists.
-				- [ ] Save only when applicable or not empty
-				- [ ] Saving must be successful for all records, otherwise rollback
-			- [ ] Save Fee Tax Type
+			- [x] Note:
+				- [x] Update based on whether record already exists.
+				- [x] Save only when applicable or not empty
+				- [x] Saving must be successful for all records, otherwise rollback
+			- [x] Save Fee Tax Type
 				- [ ] Save to table Fee Tax Type based on the corresponding Fee Tax Type Id 
 					- [ ] Fee Tax Type Code: Fee Type Code entered
 					- [ ] Fee Tax Type Name: Fee Type Name entered
